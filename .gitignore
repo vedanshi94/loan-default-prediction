@@ -6,7 +6,5 @@ venv/
 .DS_Store
 *.pkl
 *.joblib
-data/raw/
-data/*.csv
 .vscode/
 .idea/
