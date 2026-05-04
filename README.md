@@ -1,4 +1,4 @@
-# Credit Risk Prediction
+# Loan Default Predication
 
 ## Overview
 This project focuses on predicting the probability of loan default using machine learning techniques. The goal is to identify high-risk customers based on financial and behavioral features.
@@ -49,19 +49,16 @@ The dataset is based on the Give Me Some Credit challenge on Kaggle and contains
 XGBoost was selected as the final model due to higher AUC and better recall for identifying high-risk customers.
 
 
-## Key Insights
-- Recall is more important than accuracy in credit risk problems
-- Handling class imbalance significantly improves model performance
-- Delinquency-related features are strong predictors
-
-
 ## Project Structure
 project/
-├── data/
-├── notebooks/
-├── submission/
-├── README.md
-├── requirements.txt
+  - data/
+  - notebooks/
+  - submission/
+  - README.md
+  - requirements.txt
+
+## Model Comparison
+![Comparison](assets/model_comparison.png)
 
 ## How to Run
 
@@ -69,4 +66,4 @@ project/
 2. Install dependencies
 3. Run the notebook:
 ```bash
-jupyter notebook notebooks/credit-risk-logistic-vs-xgboost.ipynb
+jupyter notebook notebooks/loan-default-prediction.ipynb
